@@ -1,4 +1,4 @@
-package dataStructures;
+package datastructures;
 class Node{
 	public int i;
 	public Node next;
@@ -8,15 +8,15 @@ class Node{
 }
 public class LinkedList{
 	private Node first;
-	
+
 	public LinkedList(){
 		first = null;
 	}
-	
+
 	public boolean isEmpty(){
 		return first==null;
 	}
-	
+
 	public void insert(int x){
 		Node n = new Node(x);
 		n.next = first;
@@ -38,4 +38,3 @@ public class LinkedList{
 		}
 	}
 }
-
